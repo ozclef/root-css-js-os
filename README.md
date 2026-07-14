@@ -1,2 +1,16 @@
 # css-principales-web-os
 con esta lista de css para utilizar queda lista la primera base con debbugin de diseños diferentes para usar e implementar de manera amplia a todos los diseños...
+
+
+
+---
+
+
+base 
+
+https://ozclef.github.io/root-css-js-os/web/original.html
+
+
+-----
+
+
