@@ -23,6 +23,8 @@ root-css-js-os
 /
 index.html
 main
+
+<!----
   ----->
 
 
@@ -47,8 +49,10 @@ main
 	<link rel="stylesheet" href="css/market.css">
 	---->
 	<link rel="stylesheet" href="https://ozclef.github.io/root-css-js-os/css/cv.css">
-	
-<title> CV css- Oz clef</title>
+	<title>CV portafolio- - Dev</title>
+		<style>
+		a, h2, h1, h3, p, strong, li,  .dato , .info{color:white}
+	</style>
 </head>
 <body>
 	<header>
@@ -106,7 +110,189 @@ main
 			  <!---
 			  <section id="perfil"></section>
 			  <section id="productos"></section>
-			  ---->
+	favicon.ico">
+	---->
+----->
+<!----
+  async function viewCv(){
+	
+   const feed = await loadJSON("feed/cv.json");
+   let out = `<div class="card"><h2>
+  -CV- 
+  </h2>`;
+ feed.forEach(p=>{
+    out += ` <div class="cv">
+      <img class="thumb" loading="lazy" src="${p.img}">
+      <div>
+        <h3>${p.title}</h3>
+        <p>${p.text}</p>
+        <a class="btn" href="${p.url}">Abrir</a>
+      </div>
+    </div>
+<!---   ---->
+
+
+  <!----CARD PORTAFOLIO   ----->
+		<!---
+		<div class="card-cv">
+<div class="card-post">
+		---->
+  
+ <!-- 🧾 CV COMPACTO (IMPRIMIR) ----> 
+    <section class="print-only">
+      <h1>Oscar Cruz Díaz</h1>
+		
+	<div class="card-post"> 
+		<div class="info">
+			<h2>Oscar - C. D. </h2>
+			<p>Desarrollador web autodidacta enfocado en HTML,
+					  CSS, JavaScript y SQL. 
+					  He participado en proyectos educativos,
+					  páginas web para clientes y sistemas funcionales con interfaces dinámicas,
+					  bases de datos y despliegue web.
+				  Actualmente continúo ampliando mis 
+					  conocimientos en desarrollo full stack, 
+					  control de versiones y arquitectura de aplicaciones,
+					  combinando aprendizaje continuo con experiencia práctica en proyectos reales..
+			</p>
+			<div class="datos">
+			</div>
+		</div>
+	</div>
+		
+		<div class="card-post">
+      <p><strong>Desarrollador Web </strong> | Tlaxcala, México</p>
+      <p>
+        GitHub: <a href="https://github.com/ozclef">github profile</a> <br>
+        Portfolio: https://oscarcruzdiaz.vercel.app
+      </p>	  
+          <div class="dato"><strong>Dedicación:</strong> Full-stack web creator-
+		  Desarrollador web autodidacta enfocado en HTML, CSS, JavaScript y SQL. He participado en proyectos educativos, páginas web para clientes y sistemas funcionales con interfaces dinámicas, bases de datos y despliegue web.
+			  Actualmente continúo ampliando mis conocimientos en desarrollo full stack, control de versiones y arquitectura de aplicaciones, combinando aprendizaje continuo con experiencia práctica en proyectos reales.
+		  </div>
+			 <div class="dato"><strong>Tecnologías:</strong>
+			 <br>
+				 <li>HTML5</li><br>
+				 <li><a>CSS3</a></li>
+				 <li><a>JavaScript</a></li>
+				 <li><a>SQL</a></li>
+				 <li><a>Git</a></li>
+				 <!---
+<span class="skill" background="cyan">HTML5</span><br>
+<span class="skill" background="cyan">CSS3</span><br>
+<span class="skill" background="cyan">JavaScript</span><br>
+<span class="skill" backgroundr="cyan">SQL</span><br>
+<span class="skill" background="cyan">Git</span><br>
+				 ----->
+			 </div>
+       <section>
+			 <div class="dato"><strong> filosofías y experiencias:</strong> cada error da mucha más ventaja de aprendizaje</div>
+       	          <div class="dato"><strong>Profesión:</strong> Full-stack web creator</div>
+          <div class="dato"><strong>Intereses:</strong> OS creativos, multimedia, mini-juegos</div>
+          <div class="dato"><strong>Ubicación:</strong> Tlaxcala, México</div>
+          <div class="dato"><strong>Experiencia:</strong> 
+			<li><a>  HTML modular</a></li>
+			  <li><a>CSS separado</a></li>
+			  <li><a>JSON para contenido</a></li>
+			  <li><a>Hash Router (#/feed)</a></li>
+				  <li><a>Lazy Loading</a></li>
+				  <li><a>LocalStorage</a></li>
+				  <li><a>DOM Pruning</a></li>
+				  <li><a>Cache local</a></li>
+				  <li><a>Embeds dinámicos</a></li>
+			  <li><a>Portfolio</a></li>
+			  <li><a>CV</a></li>
+			  <li><a>Landing</a></li>
+			  <li><a>Feed red social</a></li>
+			  <li><a>Sidebar</a></li>
+			  <li><a>CRUD</a></li>
+			  <li><a>Simulación de Auth</a></li>
+		  </div>
+		 <!--- 
+            <div class="dato"><strong>Estudios:</strong>
+		   Algebra, Física cuántica, Programer, codes, logic,<br> 
+         ---Al..?</div>
+        </div>----->
+</section>
+
+		
+<section>
+  <h2 class="section-title">Especialidad </h2>
+  <div class="card">
+      <h3>Perfil</h3>
+      <p>Desarrollador autodidacta enfocado en sistemas web funcionales, 
+		  con experiencia en docencia y desarrollo práctico.</p>
+  </div>
+</section>
+		</div>
+	  
+	  <section>
+  <h2 class="section-title">Experiencia profesional</h2>
+  <div class="card">
+      <h3>Experiencia</h3>
+      <ul>
+        <li><strong>Docente en ICO (2025)</strong></li>
+        <li>Clases a niños, jóvenes y adultos</li>
+        <li>Proyectos web educativos</li>
+      </ul>
+	  <button href="https://ozclef.github.io/cursos-verano-computacion-for-kids/">
+		  DOCENTE: computacion-for-kids</button>
+	  </section>
+
+<section>
+  <h2 class="section-title">Estudios - Formación académica</h2>
+  <div class="card">
+      <h3>Educación</h3>
+	  <div>
+		  <h4>DIPLOMAS Y RECONOCIMIENTOS</h4>
+		  <p>RVOES avalados por la SEP oficial Oscar.</p>
+	  <a href="https://github.com/ozclef/education-oscar">github repositorio</a>
+		  <a href="https://ozclef.github.io/education-oscar/">website</a>
+	  </div>
+      <ul>
+        <li>ICO – Programación (tesis, proyecto final desarrollado)</li>
+        <li>CECATI 82 – Mantenimiento de computadoras (diploma)</li>
+		  
+      </ul>
+  </div>
+		</section>
+		  <section>
+			  <h3>Habilidades</h3>
+			  <p>JavaScript, HTML, CSS, SQL, Git, GitHub</p>			
+		  </section>
+		  <section>
+			  <h3>Fortalezas</h3>
+			  <p>Resolución de problemas, aprendizaje rápido, atención a cliente</p>
+		  </section>
+	</section>
+</div>
+
+			<div class="dato">
+				<strong>ENGLISH</strong>
+				<p>
+					## English
+
+My English is currently at a working level for software development.
+					I can read technical documentation, API references, 
+					and programming resources without major issues. 
+					Most of my English practice has come from programming,
+					GitHub, documentation, and watching YouTube creators over the years.
+					My strongest skills are vocabulary and pronunciation.
+					My biggest challenge is listening comprehension during fast conversations with native speakers.
+					I'm actively working to improve that.
+					A few years ago, I interviewed for a remote customer support position.
+					The interviewer told me that my pronunciation and vocabulary were very good,
+					but I wasn't yet comfortable enough with listening comprehension for a remote English-speaking role. 
+					She even offered me an on-site position and encouraged me to keep improving, saying she believed I could qualify for remote opportunities once my listening skills improved.
+
+I prefer to be honest about my current level. I'm comfortable learning, communicating, and reading technical material in English, and I continue practicing every day.
+
+				</p>
+			</div>
+	<!---
+		</div>
+---->
+
 	  </main>
 	  <aside>
 
