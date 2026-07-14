@@ -2,7 +2,8 @@
 =               PALETA UNICORN NAILS
 ==================================================*/
 
-:root{
+:root
+{
   /* Fondo principal (rosa pastel) */  
 	--bg:#fdf4f8;
   /* Texto */
@@ -33,29 +34,24 @@
   --accent2:#c48cff;
   /* Celeste pastel */
   --accent3:#9fe8ff;
-}
+	
+/*Lo que SÍ dejaría✅*/
+--accent4:rgba(255,255,255,.75);
+
+/*Vidrio*/
+--accent5:rgba(255,240,246,.60)
+
+/*Rosita transparente.✅*/
+--accent6:rgba(255,255,255,.40);
+
+/*Muy elegante.✅*/
+--accent7:backdrop-filter:blur(15px);
 
 /*
-/*cambiaría los colores.* /
---accent1:#ff86c8;
---accent2:#d29bff;
---accent3:#a6f1ff;
-Entonces:
-border-image:
-linear-gradient(
-90deg,
-var(--accent1),
-var(--accent2),
-var(--accent3)
-)1;
-Lo que SÍ dejaría✅rgba(255,255,255,.75)
-Vidrio.✅rgba(255,240,246,.60)
-Rosita transparente.✅rgba(255,255,255,.40)
-Muy elegante.✅backdrop-filter:blur(15px);
 Da efecto iOS.
 Una paleta completa que combina
-/** Blanco *//*
-#ffffff
+/** Blanco */
+--ios:#ffffff;
 /** Blanco rosado *//*
 #fff8fb
 
@@ -87,6 +83,23 @@ Una paleta completa que combina
 #5f5063
 */
 
+/*
+/*cambiaría los colores.* /
+--accent1:#ff86c8;
+--accent2:#d29bff;
+--accent3:#a6f1ff;
+Entonces:
+border-image:
+linear-gradient(
+90deg,
+var(--accent1),
+var(--accent2),
+var(--accent3)
+)1;
+*/
+}
+
+	
 *{box-sizing:border-box;font-family:Inter,system-ui}
 
 html{ background-color: #f6c1d1;
